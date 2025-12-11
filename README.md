@@ -40,7 +40,7 @@ O foco principal é demonstrar como tecnologias acessíveis podem ser integradas
 
 - Editar informações e acompanhar atualizações em tempo real
 
-👉 Download: (adicione o link da Release aqui no GitHub)
+👉 Download:(https://github.com/RYANGGTT/SM-SENAI/releases/tag/V1.0.0)
 
 🛠 Tecnologias Utilizadas
 
