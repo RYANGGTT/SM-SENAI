@@ -17,28 +17,28 @@ O foco principal é demonstrar como tecnologias acessíveis podem ser integradas
 
 🧩 Como o Sistema Funciona
 
-1.Sensores instalados na sala (ex.: contagem de pessoas).
+1. Sensores instalados na sala (ex.: contagem de pessoas).
 
-2.O ESP32 processa as informações e envia os dados via MQTT.
+2. O ESP32 processa as informações e envia os dados via MQTT.
 
-3.O servidor MQTT repassa essas informações ao aplicativo.
+3. O servidor MQTT repassa essas informações ao aplicativo.
 
-4.O app SM-SENAI exibe o estado atual da sala, cronograma e informações editáveis.
+4. O app SM-SENAI exibe o estado atual da sala, cronograma e informações editáveis.
 
 [Sensores/ESP32] → MQTT → [Aplicativo SM-SENAI]
 
 
 📱 Sobre o Aplicativo
 
-1.O app foi desenvolvido para complementar o projeto, permitindo:
+- O app foi desenvolvido para complementar o projeto, permitindo:
 
-2.Ver o estado da sala (livre / ocupada / uso moderado)
+- Ver o estado da sala (livre / ocupada / uso moderado)
 
-3.Visualizar a simulação da luz indicativa
+- Visualizar a simulação da luz indicativa
 
-4.Consultar o cronograma da sala
+- Consultar o cronograma da sala
 
-5.Editar informações e acompanhar atualizações em tempo real
+- Editar informações e acompanhar atualizações em tempo real
 
 👉 Download: (adicione o link da Release aqui no GitHub)
 
