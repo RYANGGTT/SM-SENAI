@@ -1,77 +1,64 @@
-📘 SM-SENAI — Sistema de Monitoramento de Salas
+O SM-SENAI é um projeto desenvolvido para o TCC do SENAI, com o objetivo de criar um sistema inteligente capaz de monitorar a ocupação de salas em tempo real.
+A solução integra hardware (ESP32 + sensores), comunicação MQTT e um aplicativo Android, permitindo visualizar o status da sala e gerenciar informações de forma prática.
 
-Aplicativo desenvolvido como parte do TCC no SENAI, voltado para o monitoramento inteligente de salas, controle visual de ocupação, gerenciamento de horários e integração com sensores reais via ESP32.
+🎯 Objetivo do Projeto
 
-📱 Sobre o Projeto
+1.O sistema foi criado para facilitar o controle e a organização de salas, oferecendo:
 
-O SM-SENAI é um sistema completo composto por:
+2.Monitoramento automático da ocupação
 
-Aplicativo Android (.apk)
+3.Indicação visual do estado da sala
 
-Dispositivo físico com ESP32
+4.Registro de uso e apoio à gestão
 
-Sensores de presença / contador de pessoas
+5.Interface mobile para acompanhamento e edição
 
-Comunicação MQTT
+O foco principal é demonstrar como tecnologias acessíveis podem ser integradas para resolver problemas reais dentro do ambiente escolar.
 
-Iluminação indicativa (LED ou sinalizador externo)
+🧩 Como o Sistema Funciona
 
-O objetivo é criar uma solução funcional para monitoramento de salas em tempo real, ideal para instituições educacionais, laboratórios, empresas e ambientes compartilhados.
+1.Sensores instalados na sala (ex.: contagem de pessoas).
 
-✨ Funcionalidades do Aplicativo
-🟢 Monitoramento em Tempo Real
+2.O ESP32 processa as informações e envia os dados via MQTT.
 
-Exibe se a sala está:
+3.O servidor MQTT repassa essas informações ao aplicativo.
 
-Livre
+4.O app SM-SENAI exibe o estado atual da sala, cronograma e informações editáveis.
 
-Ocupada
+📱 Sobre o Aplicativo
 
-Em uso moderado
+1.O app foi desenvolvido para complementar o projeto, permitindo:
 
-Status enviado pelo ESP32 via MQTT.
+2.Ver o estado da sala (livre / ocupada / uso moderado)
 
-💡 Demonstração de Luz
+3.Visualizar a simulação da luz indicativa
 
-Mostra no app o mesmo estado visual que aparece no sinalizador físico.
+4.Consultar o cronograma da sala
 
-Perfeito para demonstrações no TCC.
+5.Editar informações e acompanhar atualizações em tempo real
 
-📅 Cronograma das Salas
+👉 Download: (adicione o link da Release aqui no GitHub)
 
-Visualização organizada dos horários:
+🛠 Tecnologias Utilizadas
 
-Aulas
+- ESP32
 
-Reservas
+- Sensores de ocupação
 
-Ocupações
+- MQTT
 
-Interface amigável.
+- plicativo Android
 
-✏️ Edição e Gerenciamento
+- Plataforma de teste e demonstração para TCC
 
-Possibilidade de alterar informações do cronograma e configurações gerais dentro do aplicativo.
+👨‍🏫 Projeto Acadêmico
 
-🔗 Comunicação MQTT
+Este projeto foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) – SENAI, demostrando:
 
-Recebimento e envio de dados totalmente integrados ao hardware real.
+- Automação
 
-🛠️ Tecnologias Utilizadas
-Aplicativo
+- IoT
 
-Flutter / Android (ou a tecnologia que você me informar)
+- Monitoramento inteligente
 
-MQTT Client
-
-Interface intuitiva para apresentação
-
-Hardware
-
-ESP32 / ESP8266
-
-Sensor de presença ou VL53L0X (se quiser, adiciono)
-
-LEDs / sinalizador externo
-
-Protocolo MQTT (Mosquitto utilizado nos testes)
+- Integração entre hardware e software
