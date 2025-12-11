@@ -3,15 +3,15 @@ A solução integra hardware (ESP32 + sensores), comunicação MQTT e um aplicat
 
 🎯 Objetivo do Projeto
 
-1.O sistema foi criado para facilitar o controle e a organização de salas, oferecendo:
+- O sistema foi criado para facilitar o controle e a organização de salas, oferecendo:
 
-2.Monitoramento automático da ocupação
+- Monitoramento automático da ocupação
 
-3.Indicação visual do estado da sala
+- Indicação visual do estado da sala
 
-4.Registro de uso e apoio à gestão
+- Registro de uso e apoio à gestão
 
-5.Interface mobile para acompanhamento e edição
+- Interface mobile para acompanhamento e edição
 
 O foco principal é demonstrar como tecnologias acessíveis podem ser integradas para resolver problemas reais dentro do ambiente escolar.
 
@@ -24,6 +24,9 @@ O foco principal é demonstrar como tecnologias acessíveis podem ser integradas
 3.O servidor MQTT repassa essas informações ao aplicativo.
 
 4.O app SM-SENAI exibe o estado atual da sala, cronograma e informações editáveis.
+
+[Sensores/ESP32] → MQTT → [Aplicativo SM-SENAI]
+
 
 📱 Sobre o Aplicativo
 
