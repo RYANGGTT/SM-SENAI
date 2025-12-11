@@ -39,9 +39,10 @@ O foco principal é demonstrar como tecnologias acessíveis podem ser integradas
 - Consultar o cronograma da sala
 
 - Editar informações e acompanhar atualizações em tempo real
-- 
+  
 
 👉 Download: https://github.com/RYANGGTT/SM-SENAI/releases/tag/V1.0.0
+
 
 🛠 Tecnologias Utilizadas
 
